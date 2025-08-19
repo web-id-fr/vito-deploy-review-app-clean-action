@@ -46,6 +46,7 @@ It is highly recommended that you store all inputs using [GitHub Secrets](https:
 | `pr_number`             | no       |         | Manually define pull-request number (⚠️ Based on `GITHUB_REF_NAME` by default, but does not seems to work properly, according to this [issue](https://github.com/actions/runner/issues/256)). |
 | `database_name`         | no       |         | Database name of the review-app site.<br>The branch name the action is running on will be used to generate it if not defined (recommended).                                                   |
 | `database_name_prefix`  | no       |         | Database name prefix, useful for PostgreSQL that does not support digits (PR number) for first chars.                                                                                         |
+| `debug`                 | no       | `false` | Enable debug output.                                                                                                                                                                          |
 
 ## Outputs
 
